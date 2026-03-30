@@ -1,0 +1,14 @@
+At first I searched general articles and news reports about Ajmal Kasab’s capture. Most of the commonly repeated reports mentioned that he was captured sometime between 12:00 AM and 1:00 AM IST.
+
+Based on that, I initially tried flags around that time range, but none of them worked.
+
+Since the challenge hinted that “nobody remembers the truth correctly” and that there was a discrepancy in the official timeline, I started digging deeper into older reports, police records, and detailed timeline articles of the Mumbai attacks.
+
+After comparing multiple sources, I found that while Kasab was physically captured earlier during the encounter, he was officially taken into custody and admitted to the hospital at around 1:30 AM IST.
+
+That was the hidden timeline discrepancy the challenge was referring to.
+
+Final Flag:
+
+MythX{01:30:AM}
+
