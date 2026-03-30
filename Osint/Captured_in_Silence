@@ -1,0 +1,21 @@
+The image only showed a beach with white sand, calm water and some tree branches hanging from the top. There were no major landmarks like buildings, rocks or mountains, so it was difficult to identify directly.
+
+The hint said:
+
+“A single frame. Captured in real time. Forgotten by most — but not erased”
+
+That made me think this was probably taken from an old webcam or livestream archive.
+
+First, I put the image into Google Lens. The closest match it gave was Uroa Beach because it has a very similar appearance: white sand, shallow blue water and tropical trees.
+
+However, the frame did not match exactly, so I started comparing other beaches with the same style. I searched for terms like:
+
+archived tropical beach webcam
+white sand beach tree canopy
+east africa beach live cam
+
+After checking several beaches, I compared the image with Diani Beach. The shoreline, flat horizon, colour of the water and the tree cover matched much better than Uroa Beach.
+
+So the final flag was:
+
+MythX{Diani_Beach}
