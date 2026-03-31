@@ -1,4 +1,4 @@
-# OSINT Writeup – DAA Marks Challenge
+# OSINT Writeup – Hunt Part 1
 
 ## Challenge
 
@@ -19,8 +19,9 @@ I started by searching for **"c0mrade"** using Google dorking techniques, but no
 
 To refine the search, I added **"kiet"** to the query:
 
+```bash
 "c0mrade" "kiet"
-
+```
 This led me to a profile of **Dev Pandey**, where multiple posts referenced a team named *c0mrade*. This strongly suggested that Dev Pandey was the person I was looking for.
 
 ---
@@ -37,9 +38,9 @@ After analyzing his LinkedIn profile, I gathered:
 ## Step 3: Advanced Dorking
 
 I attempted another search:
-
+```bash
 "dev pandey" "kiet"
-
+```
 This didn’t yield direct results, but I discovered an old website:
 
 old.kiet.edu
@@ -47,8 +48,9 @@ old.kiet.edu
  
 I then refined my search using:
 
+```bash
 site:old.kiet.edu "dev pandey" "kiet"
-
+```
 
 This led to a **PDF uploaded by the CSE department** containing a list of students from the 2023–2027 batch.
 
@@ -125,14 +127,13 @@ After some manual investigation, I found:
 Using the formula:
 
 
-Flag = JaiScore + (C0mradeScore × 121212)
+Flag = (JaiScore + C0mradeScore × 121212)
 
 
 Substituting values:
 
 
-= 24 + (62 × 121212)
-= 24 + 7515144
+= (24 + 62 × 121212)
 = 7515168
 
 
@@ -140,19 +141,6 @@ Substituting values:
 
 ## Final Flag
 
-
+```bash
 MythX{7515168}
-
-
----
-
-## Conclusion
-
-This challenge involved:
-- Google dorking
-- Social media intelligence (SOCMINT)
-- PDF/document analysis
-- Brute forcing with partial data
-- Correlating identities across platforms
-
-It highlights how small pieces of publicly available information can be chained together to extract sensitive data.
+```
